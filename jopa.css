@@ -1,0 +1,331 @@
+html{
+    scroll-behavior:smooth;
+}
+.cont{
+    width: 1170px;
+    margin: auto;
+}
+.header .slider{
+    height: 500px;
+}
+.header .slider img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    filter:brightness(40%);
+
+}
+.header .slider img:hover{
+    filter: brightness(100%);
+}
+
+.header .nav{
+    background-color:#252f31;
+    color:#fff;
+    background-attachment: fixed;
+    overflow:hidden;
+
+}
+.header .nav h2{float: left;text-transform: uppercase;} 
+.header .nav h2 span{
+    color: #2ecc71;
+}
+ul{
+
+    float: left;
+    display: flex;
+}
+
+ul li{
+    float: left;
+    list-style: none;
+    margin-left: 62px;
+    margin-top:27px ;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+
+@keyframes jopa{
+    0%{
+        
+    }
+}
+.text{
+    overflow: hidden;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.text .feat{
+    float: left;
+    width:33.3333333333%
+}
+.text .feat h2{text-transform:uppercase;color: rgb(240, 112, 44);}
+
+#Breakfast{
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 75px;
+    width: 100%;
+    height: 400px;
+}
+#Breakfast .image{
+    float: left;
+    display: flex;
+    width: 80%;
+    text-align: center;
+}
+#Breakfast .image img{width: 300px;
+height: 300px;
+margin: 10px;
+transition: 1s;
+border-radius: 50%;
+}
+#Breakfast .image img:hover{
+    transform: scale(1.1);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#Breakfast .info {
+    float:right;
+    width: 15%;
+    color: #ff7200;
+    text-align: center;
+    margin-top: 120px;
+    transition: 2s;
+    background-color: #2ecc71;
+    border-radius: 40%;
+}
+#Breakfast .info:hover{
+    color: #fff;
+}
+#Breakfast .info p{margin-left: 20px;}
+#Breakfast .info h2{margin-left: 20px;}
+
+
+
+#Lunch{
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 75px;
+    width: 100%;
+    height: 400px;
+}
+#Lunch .image{
+    float: left;
+    display: flex;
+    width: 80%;
+    text-align: center;
+}
+#Lunch .image img{width: 300px;
+height: 300px;
+margin: 10px;
+transition: 1s;
+border-radius: 50%;
+}
+#Lunch .image img:hover{
+    transform: scale(1.1);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#Lunch .info {
+    float:right;
+    width: 15%;
+    color: #ff7200;
+    text-align: center;
+    margin-top: 120px;
+    background-color: #2ecc71;
+    transition: 2s;
+    border-radius: 40%;
+}
+#Lunch .info:hover{
+    color: #fff;
+}
+#Lunch .info p{margin-left: 20px;}
+#Lunch .info h2{margin-left: 20px;}
+
+#Dinner{
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 75px;
+    width: 100%;
+    height: 400px;
+}
+#Dinner .image{
+    float: left;
+    display: flex;
+    width: 80%;
+    text-align: center;
+}
+#Dinner .image img{width: 300px;
+height: 300px;
+margin: 10px;
+transition: 1s;
+border-radius: 50%;
+}
+#Dinner .image img:hover{
+    transform: scale(1.1);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#Dinner .info {
+    float:right;
+    width: 15%;
+    color: #ff7200;
+    text-align: center;
+    margin-top: 120px;
+    background-color: #2ecc71;
+    transition: 2s;
+    border-radius: 40%;
+}
+#Dinner .info:hover{
+    color: #fff;
+}
+#Dinner .info p{margin-left: 20px;}
+#Dinner .info h2{margin-left: 20px;}
+
+#Drinks{
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 75px;
+    width: 100%;
+    height: 400px;
+}
+#Drinks .image{
+    float: left;
+    display: flex;
+    width: 80%;
+    text-align: center;
+}
+#Drinks .image img{width: 300px;
+height: 300px;
+margin: 10px;
+transition: 1s;
+border-radius: 50%;
+}
+#Drinks .image img:hover{
+    transform: scale(1.1);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#Drinks .info {
+    float:right;
+    width: 15%;
+    color: #ff7200;
+    text-align: center;
+    margin-top: 120px;
+    background-color: #2ecc71;
+    transition: 2s;
+    border-radius: 40%;
+}
+#Drinks .info:hover{
+    color: #fff;
+}
+#Drinks .info p{margin-left: 20px;}
+#Drinks .info h2{margin-left: 20px;}
+
+
+#Sweets{
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 75px;
+    width: 100%;
+    height: 400px;
+}
+#Sweets .image{
+    float: left;
+    display: flex;
+    width: 80%;
+    text-align: center;
+}
+#Sweets .image img{width: 300px;
+height: 300px;
+margin: 10px;
+transition: 1s;
+border-radius: 50%;
+}
+#Sweets .image img:hover{
+    transform: scale(1.1);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#Sweets .info {
+    float:right;
+    width: 15%;
+    color: #ff7200;
+    text-align: center;
+    margin-top: 120px;
+    background-color: #2ecc71;
+    transition: 3s;
+    border-radius: 40%;
+}
+#Sweets .info:hover{
+    color: #fff;
+    transition: 1s;
+}
+#Sweets .info p{margin-left: 20px;}
+#Sweets .info h2{margin-left: 20px;}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #021818;
+    color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+#icon{
+    margin-top: 20px;
+}
+#icon a{
+    text-decoration: none;
+    color: #fff;
+
+}
+#icon ion-icon{
+    color: #fff;
+    font-size: 50px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.4s ease;
+}
+#icon ion-icon.google:hover{
+    color: #ff7200;
+}
+#icon ion-icon.face:hover{
+    color: #1d0b85;
+}
+#icon ion-icon.insta:hover{
+    color: #f07474e3;
+}
+#icon ion-icon.skype:hover{
+    color: #297ddfe3;
+}
+#icon ion-icon.twi:hover{
+    color: #7db4f3e3;
+}
+footer pre{
+    height: 100px;
+    text-align: center;
+    transition: 3s;
+    color: #000;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 40px;
+}
+footer pre:hover{
+    color: #fff;
+}
